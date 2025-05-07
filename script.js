@@ -27,6 +27,7 @@ const chart = new Chart(document.getElementById("chart"), {
   type: "bar",
   data: {
     labels: labelsBottom,
+    
     datasets: [
       {
         label: "قيمة المؤشر",
